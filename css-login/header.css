@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+.logo__colada__login {
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .header {
+        margin-left: 2em;
+    }
+
+    .logo__colada__login {
+        display: block;
+        display: flex;
+        align-items: center;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .pesquisa__container {
+        display: block;
+        border: none;
+        width: 212px;
+        height: 30px;
+        border-radius: 20px;
+        margin-left: 5em;
+        background-image: url(/img/Icone.svg);
+        background-repeat: no-repeat;
+        background-position: 13em;
+        font-family: var(--fonte);
+    }
+}
+
+@media screen and (min-width: 1025px){
+    
+}

@@ -1,0 +1,54 @@
+.div__suprema {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content:space-between;
+    padding: 1rem;
+}
+
+.titulo__vendas {
+    font-weight: 500;
+    font-size: 14px;
+    font-family: var(--fonte);
+    color: #464646;
+    margin-bottom: 5px;
+}
+
+.paragrafo__vendas {
+    color: var(--preto);
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.link__vendas {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--azul); 
+    text-decoration: none;  
+}
+
+.foto__vendas {
+    height: auto;
+}
+
+.testee {
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .foto__vendas{
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    .div__suprema{
+        justify-content: center;
+    }
+
+    .testee {
+       display: block; 
+    }
+}

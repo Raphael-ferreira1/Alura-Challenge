@@ -1,0 +1,89 @@
+.rodape {
+    background-color: #EAF2FD;
+}
+
+.Fale__conosco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.rodape__logo {
+    display: flex;
+    justify-content: center;
+}
+
+.lista__rodape {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.itens__rodape {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--preto);
+    margin-bottom: 20px;
+}
+
+.fale-conosco__titulo {
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+    position: relative;
+}
+
+.fale-conosco__nome {
+    border: none;
+    height: 56px;
+    width: 328px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    box-shadow: 0 1px #C8C8C8;
+    margin-bottom: 1em;
+}
+
+.fale-conosco__msg {
+    border: none;
+    height: 82px;
+    width: 328px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    box-shadow: 0 1px #C8C8C8;
+    margin-bottom: 1em;
+    position: static;
+}
+
+.fale-conosco__msg::placeholder, .fale-conosco__nome::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: var(--fonte);
+}
+
+.fale-conosco__botao {
+    height: 40px;
+    width: 151px;
+    left: 0px;
+    top: 189px;
+    border-radius: 0px;
+    padding: 12px 16px 12px 16px;
+    border: none;
+    color: white;
+    background-color: #2A7AE4;
+    font-family: var(--fonte);
+    font-weight: 600;
+}
+
+footer p {
+    margin-top: 15px;
+    text-align: center;
+    align-items: center;
+    font-weight: 500;
+    color: #464646;
+    font-size: 16px;
+}
+

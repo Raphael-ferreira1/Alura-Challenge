@@ -1,0 +1,52 @@
+.quebra-secao {
+    display: flex;
+    
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 10px;
+    
+}
+
+.quebra-secao__titulo {
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--preto);
+}
+
+.paragrafo__quebra-secao {
+    font-weight: 700;
+    color: var(--azul);
+    font-size: 14px;
+    margin-right: 4px;
+}
+
+.ver_tudo {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px){
+    .quebra-secao{
+        align-items: center;
+        margin-left: 1.1em;
+        justify-content: space-between;
+        padding: 0px;
+        margin-right: 1.8em;        
+    }
+    
+}
+
+@media screen and (min-width: 1025px){
+
+    .quebra-secao {
+        margin-top: 3em;
+        justify-content: space-between;
+        margin-left: 140px;
+        margin-right: 140px;
+        
+    }
+
+    .quebra-secao__titulo {
+        font-size: 32px;
+    }
+}

@@ -1,0 +1,44 @@
+.Paragrafo__produtos {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--preto);
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+}
+
+.botao__produtos {
+    height: 40px;
+    width: 151px;
+    left: 0px;
+    top: 42px;
+    border-radius: 0px;
+    padding: 12px 16px 12px 16px;
+    border: none;
+    color: white;
+    background-color: var(--azul);
+    font-weight: 600;
+}
+
+.comeco__produtos {
+    margin-left: 4.40%;
+}
+
+@media screen and (min-width: 768px){
+    .lupa {
+        display: none;
+    }
+
+    .comeco__produtos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 4.40%;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    .Star-Wars {
+        padding: 1.2em;
+        
+    }
+}

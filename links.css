@@ -1,0 +1,181 @@
+.linkss {
+    background-color: #EAF2FD;
+    margin-top: 15px;
+}
+
+.links {
+    text-align: center;
+}
+
+.geekmaior {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.paragrafo__links {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.links__paragrafo {
+    text-decoration: none;
+    color: #464646;
+}
+
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+}
+
+.paragrafo__formulario {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--preto);
+    margin-bottom: 10px;
+    margin-left: 2em;
+    
+}
+
+.nome__formulario {
+    border-radius: 4px;
+    width: 95%;
+    align-items: center;
+    margin: auto;
+    width: 328px;
+    height: 56px;
+    border: none;
+    box-shadow:  0px 1px #C8C8C8;
+    margin-bottom: 20px;
+    margin-left: 2em;
+}
+
+.nome__formulario::placeholder {
+    font-family: var(--fonte);
+    position: absolute;
+    font-size: 12px;
+    top: 15px; 
+    left: 10px;
+}
+
+.formulario__texto {
+    border-radius: 4px;
+    
+    width: 95%;
+    align-items: center;
+    margin: auto;
+    width: 328px;
+    height: 56px;
+    border: none;
+    box-shadow:  0px 1px #C8C8C8;
+    margin-bottom: 15px;
+    margin-left: 2em;
+}
+
+.formulario__texto::placeholder {
+    font-family: var(--fonte);
+    position: absolute;
+    font-size: 16px;
+    top: 15px; 
+    left: 10px;
+}
+
+input[type=textarea] {
+    height: 80px;
+}
+
+.botao__formulario {
+    background-color: #2A7AE4;
+    border: none;
+    height: 40px;
+    width: 151px;
+    left: 0px;
+    top: 189px;
+    border-radius: 0px;
+    padding: 12px 16px 12px 16px;
+    margin-bottom: 20px;
+    margin-left: 2em;
+}
+
+.ancora__formulario {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: var(--fonte);   
+}
+
+footer {
+    height: 40px;
+}
+
+.paragrafo__rodape {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    color: #464646;
+}
+
+@media screen and (min-width: 768px){
+
+
+    .linkss {
+        display: flex;
+        justify-content: space-between;
+        padding: 3em;
+        align-items: center;
+    }
+
+    .links {
+        text-align: left;
+    }
+    
+    .Alura-geek-maior {
+        margin-bottom: 1em ;
+    }
+
+    .paragrafo__formulario, .nome__formulario, .formulario__texto, .botao__formulario {
+        margin-left: 1em;
+    }
+    .botao__formulario {
+        display: flex;
+        flex-direction: column;
+        height: 40px;
+        width: 151px;
+        top: 189px;
+        border-radius: 0px;
+        padding: 12px 16px 12px 16px;
+    }
+
+    .paragrafo__links {
+        margin-bottom: 30PX;
+    }
+}
+
+@media screen and (min-width: 1025px){
+
+    .linkss {
+        padding: 5em;
+        align-items: center;
+        justify-content: center;
+        gap: 10em;
+    }
+
+    .links {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .Alura-geek-maior {
+        margin-bottom: 14em;
+        margin-right: 4em;
+        
+    }
+
+    .nome__formulario, .formulario__texto {
+        margin-right: 30em;
+        width: 70%;
+    }
+}
